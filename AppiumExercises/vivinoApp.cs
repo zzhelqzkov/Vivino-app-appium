@@ -10,8 +10,8 @@ namespace AppiumExercises
     [TestFixture]
     class vivinoApp
     {
-        private const string VivinoLoginEmail = "pesho@abv.bg";
-        private const string VivinoLoginPassword = "parola1parola1";
+        private const string VivinoLoginEmail = "username";
+        private const string VivinoLoginPassword = "password";
         private const string VivinoAppPackage = "vivino.web.app";
         private const string VivinoAppStartupActivity = "com.sphinx_solution.activities.SplashActivity";
         private AndroidDriver<AndroidElement> driver;
